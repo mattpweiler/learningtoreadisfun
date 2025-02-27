@@ -3,7 +3,7 @@ import React from 'react';
 const BookTutor = () => {
   return (
     <div>
-      hello
+      book tutor page
       {/* <h1>Book a Session with Our Tutor</h1>
       <p>
         Welcome to our tutoring service! We are excited to help you on your learning journey. 

@@ -23,7 +23,7 @@ const Contact = () => {
 
   return (
     <div>
-      hello
+      contactpage
       {/* <h1>Contact Us</h1>
       <form onSubmit={handleSubmit}>
         <div>
