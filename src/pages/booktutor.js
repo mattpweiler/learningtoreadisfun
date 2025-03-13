@@ -9,7 +9,7 @@ const BookTutor = () => {
         Our experienced tutors are here to provide personalized assistance and support.
       </p>
       <p>
-        To book a session, please click the link below to visit our calendar booking website.
+        To book a session, please book a time convenient for you in the calendar below.
       </p>
       {/* <a 
         href="https://cal.com/karen-learning/1h" 
