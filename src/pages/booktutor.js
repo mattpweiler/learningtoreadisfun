@@ -1,4 +1,5 @@
 import React from 'react';
+import Cal from "@calcom/embed-react";
 
 const BookTutor = () => {
   return (
@@ -11,23 +12,7 @@ const BookTutor = () => {
       <p>
         To book a session, please book a time convenient for you in the calendar below.
       </p>
-      {/* <a 
-        href="https://cal.com/karen-learning/1h" 
-        target="_blank" 
-        rel="noopener noreferrer"
-        style={{ color: 'blue', textDecoration: 'underline' }}
-      >
-        Book a Session
-      </a> */}
-      <div className="flex justify-center items-center min-h-screen">
-      <iframe
-        src="https://cal.com/karen-learning/1h"
-        width="60%"
-        height="700px"
-        style={{ border: "none" }}
-        title="Book a Call"
-      ></iframe>
-    </div>
+      <Cal calLink="karen-learning/1h" config={{ theme: "light" }}></Cal>
     </div>
   );
 };
